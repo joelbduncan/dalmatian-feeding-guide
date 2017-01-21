@@ -1,0 +1,37 @@
+body{
+  padding:20px 20px;
+  padding-top: 65px;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px;
+  color:#ccc;
+}
+.table > tbody > tr.danger > td {
+ background-color: #ff4444 !important;
+}
+.table > tbody > tr.warning > td {
+ background-color: #ffbb33 !important;
+}
+.table > tbody > tr.success > td {
+ background-color: #00C851 !important;
+}
+
+.table-hover > tbody > tr.danger:hover > td {
+ background-color: #CC0000 !important;
+}
+.table-hover > tbody > tr.warning:hover > td {
+ background-color: #FF8800 !important;
+}
+.table-hover > tbody > tr.success:hover > td {
+ background-color: #007E33 !important;
+}

@@ -1,0 +1,102 @@
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script src="js/bootstrap.min.js"></script>
+<script src="js/table.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+
+<body>
+
+<div class="form-group pull-right">
+    <input type="text" class="search form-control" placeholder="What you looking for?">
+</div>
+<span class="counter pull-right"></span>
+
+<div class="table-responsive">
+  <table class="table table-hover table-bordered results">
+    <thead>
+      <tr>
+        <th class="col-md-5 col-xs-5">Food</th>
+        <th class="col-md-4 col-xs-4">Pruine Level</th>
+      </tr>
+      <tr class="warning no-result">
+        <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td>Whole grain yeast free bread</td>
+        <td>Light Purines</td>
+      </tr>
+      <tr class="success">
+        <td>Whole grain yeast free cerials</td>
+        <td>Light Purines</td>
+      </tr>
+      <tr class="success">
+        <td>Most vegetables (see high purine exceptions below) Not onions or Garlic.</td>
+        <td>Light Purines</td>
+      </tr>
+      <tr class="success">
+        <td>Fruits (some fruits are toxic to dogs see list below)</td>
+        <td>Light Purines</td>
+        <tr class="warning">
+          <td>Most Poultry including Chicken and Turkey</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="warning">
+          <td>Fish and Shellfish (see exceptions below)</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="warning">
+          <td>Lamb</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="warning">
+          <td>Pork</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="warning">
+          <td>Lamb</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="warning">
+          <td>Beef</td>
+          <td>Light Purines</td>
+        </tr>
+        <tr class="danger">
+          <td>Oats and Oatmeal</td>
+          <td>Light Purines</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+
+<script>
+$(document).ready(function() {
+  $(".search").keyup(function () {
+    var searchTerm = $(".search").val();
+    var listItem = $('.results tbody').children('tr');
+    var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+
+  $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+        return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+    }
+  });
+
+  $(".results tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','false');
+  });
+
+  $(".results tbody tr:containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','true');
+  });
+
+  var jobCount = $('.results tbody tr[visible="true"]').length;
+    $('.counter').text(jobCount + ' item');
+
+  if(jobCount == '0') {$('.no-result').show();}
+    else {$('.no-result').hide();}
+		  });
+});
+</script>
