@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Dalmatian Purine Guide</a>
+        <a class="navbar-brand" href="/">Dalmatian Purine Guide</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
@@ -31,7 +31,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Add to Database</a></li>
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
               <li role="separator" class="divider"></li>
               <li class="dropdown-header">Useful Links</li>
               <li><a href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a></li>
@@ -64,10 +64,7 @@
 
       <?php
 
-      $servername = "localhost";
-      $username = "root";
-      $password = "automation";
-      $dbname = "dalmatian";
+      include 'config.php';
 
       // Create connection
       $conn = new mysqli($servername, $username, $password, $dbname);
