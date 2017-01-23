@@ -80,7 +80,7 @@ body {
 
   <!-- Modal -->
   <div class="modal fade" id="importantModal" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
 
       <!-- Modal content-->
       <div class="modal-content">
@@ -92,6 +92,7 @@ body {
           <p>Dalmatians' livers have trouble breaking down uric acid, which can build up in the blood serum <a href="https://en.wikipedia.org/wiki/Hyperuricemia">(hyperuricemia)</a> causing gout.
           Uric acid can also be excreted in high concentration into the urine, causing kidney stones and bladder stones.
           These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide.php"><b>low purine diet<b>.</p></a>
+          <img style="border-radius: 10px; box-shadow: rgba(0,0,0,0.8) 0 0 10px;" class="img-responsive" src="img/dalmatian-why-it-matters.jpg" alt="Healthy Dalmatian">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
