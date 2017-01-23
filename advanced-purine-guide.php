@@ -21,12 +21,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Dalmatian Purine Guide</a>
+        <a class="navbar-brand" href="/">Dalmatian Feeding Guide</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="#about">Guide</a></li>
+          <li><a href="#about">Guides</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -46,6 +46,44 @@
   <div class="form-group pull-right">
       <input type="text" class="search form-control" placeholder="What you looking for?">
   </div>
+
+  <div class="form-group pull-left">
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#table-info">What does this mean?</button>
+  </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="table-info" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">What does this mean?</h4>
+        </div>
+        <div class="modal-body">
+          <p>This table breaks down purine levels into 3 groups.
+          These groups are represented by a different colour.</p>
+
+          <div class="alert alert-success" role="alert">
+            <strong>Green: </strong>Low Purine, can be fed as often as you like
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <strong>Yellow: </strong>Moderate level of purines and are acceptable in your dogs diet
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <strong>Red: </strong>Should be avoided as much as possible
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <span class="counter pull-right"></span>
   <table width="100%" class="table results" data-toggle="table"
          data-sort-name="id"

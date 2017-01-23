@@ -35,3 +35,19 @@ body{
 .table-hover > tbody > tr.success:hover > td {
  background-color: #007E33 !important;
 }
+
+.alert-danger {
+background-color: #ff4444 !important;
+border-color: #CC0000 !important;
+color: #191919 !important;
+}
+.alert-warning {
+background-color: #ffbb33 !important;
+border-color: #FF8800 !important;
+color: #191919 !important;
+}
+.alert-success {
+background-color: #00C851 !important;
+border-color: #007E33 !important;
+color: #191919 !important;
+}
