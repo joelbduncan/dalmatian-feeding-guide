@@ -52,12 +52,11 @@
          data-sort-order="asc">
     <thead>
       <tr>
-        <th data-field="Purine Level">Nutr. Density in mg/MJ</th>
-        <th data-field="Purine Level">Max</th>
-        <th data-field="Purine Level">Min</th>
-        <th data-field="Purine Level">Total Purines in mg uric acid/100 g</th>
-        <th data-field="Purine Level">Total Purine</th>
-        <th data-field="Food">Food</th>
+        <th data-field="food">Food</th>
+        <th data-field="total_purines">Total Purines in mg uric acid/100 g</th>
+        <th data-field="min">Min</th>
+        <th data-field="max">Max</th>
+        <th data-field="nutr_density">Nutr. Density in mg/MJ</th>
         <th data-field="id" class="hidden">id</th>
       </tr>
       <tr class="warning no-result">
@@ -77,18 +76,18 @@
           die("Connection failed: " . $conn->connect_error);
       }
 
-      $sql = "SELECT id, food, purine_level, bootstrap_class FROM dalmatian_purine";
+      $sql = "SELECT id, food, total_purines, min, max, nutr_density, bootstrap_class FROM advanced_dalmatian_purine";
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
           // output data of each row
           while($row = $result->fetch_assoc()) {
               echo '<tr class="' . $row["bootstrap_class"] .'">
-                        <td>' . $row["nutr_density"] .'</td>
-                        <td>' . $row["max"] .'</td>
-                        <td>' . $row["min"] .'</td>
+                        <td>' . $row["food"] .'</td>
                         <td>' . $row["total_purines"] .'</td>
-                        <td> '.$row["food"] .'</td>
+                        <td>' . $row["min"] .'</td>
+                        <td>' . $row["max"] .'</td>
+                        <td> '.$row["nutr_density"] .'</td>
                         <td> '.$row["id"] .'</td>
                       </tr>';
           }
