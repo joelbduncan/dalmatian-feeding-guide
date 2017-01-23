@@ -26,7 +26,14 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="#about">Guides</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="index.php">Purine Levels</a></li>
+              <li><a href="advanced-purine-guide.php">Advanced Purine Table</a></li>
+              <li><a href="contact.php">Dry Food</a></li>
+            </ul>
+          </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -48,7 +55,7 @@
   </div>
 
   <div class="form-group pull-left">
-      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#table-info">What does this mean?</button>
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#table-info">Key</button>
   </div>
 
     <!-- Modal -->
