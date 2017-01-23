@@ -42,7 +42,7 @@
               <li><a href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a></li>
             </ul>
           </li>
-          <li><a href="#"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
+          <li><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -54,6 +54,18 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+/* Jumbotron cover photo */
+.jumbotron {
+    position: relative;
+    background: #000 url("img/zeus-dalmatian-cover.jpg") center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
 </style>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->

@@ -43,6 +43,7 @@
               <li><a href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a></li>
             </ul>
           </li>
+          <li><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
