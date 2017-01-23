@@ -74,7 +74,30 @@ body {
       <h1>Welcome!</h1>
       <p>This website was created to combine information on feeding Dalmatians food that will prevent the formation of stones into one modern easy to navigate and understand website.</p>
       <p>All information provided is from reputable sources, if you think we have gotten something wrong feel to contact us!</p>
-      <p><a class="btn btn-primary btn-lg" href="contact.php" role="button">Contact Us &raquo;</a></p>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#importantModal">Why this Matters</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="importantModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Why is This Important?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Dalmatians' livers have trouble breaking down uric acid, which can build up in the blood serum <a href="https://en.wikipedia.org/wiki/Hyperuricemia">(hyperuricemia)</a> causing gout.
+          Uric acid can also be excreted in high concentration into the urine, causing kidney stones and bladder stones.
+          These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide.php"><b>low purine diet<b>.</p></a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
     </div>
   </div>
 
