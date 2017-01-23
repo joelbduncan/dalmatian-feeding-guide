@@ -25,13 +25,13 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
-          <li class="dropdown">
+          <li><a href="/">Home</a></li>
+          <li class="active" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="index.php">Purine Levels</a></li>
+              <li class="active"><a href="purine-guide.php">Purine Table</a></li>
               <li><a href="advanced-purine-guide.php">Advanced Purine Table</a></li>
-              <li><a href="contact.php">Dry Food</a></li>
+              <li><a href="dry-food-guide.php">Dry Food</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -136,8 +136,8 @@
              </tbody>
     </tbody>
   </table>
+<hr>
 </div>
-
 <footer class="footer">
   <div class="container">
     <p class="text-muted">Created by Joel Duncan <a href="https://slethen.io">slethen.io</p>

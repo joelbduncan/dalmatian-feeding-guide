@@ -63,12 +63,19 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Dalmatian Purine Guide</a>
+        <a class="navbar-brand" href="/">Dalmatian Feeding Guide</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="/">Home</a></li>
-          <li><a href="#about">Guide</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="purine-guide.php">Purine Table</a></li>
+              <li><a href="advanced-purine-guide.php">Advanced Purine Table</a></li>
+              <li><a href="dry-food-guide.php">Dry Food</a></li>
+            </ul>
+          </li>
           <li class="active" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -132,9 +139,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
   		</div>
   	</div>
   </form>
-
+<hr>
   </div>
-
 </div>
   <footer class="footer">
     <div class="container">
