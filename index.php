@@ -1,5 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Dalmatian Feeding Guide</title>
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset=utf-8>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
@@ -131,3 +137,4 @@ body {
 </footer>
 
 </body>
+</html>
