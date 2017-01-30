@@ -51,3 +51,7 @@ background-color: #00C851 !important;
 border-color: #007E33 !important;
 color: #191919 !important;
 }
+td {
+   border: 1px solid #dddddd !important;
+   color: black !important;
+}
