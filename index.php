@@ -28,12 +28,12 @@ body {
 /* Jumbotron cover photo */
 .jumbotron {
     position: relative;
-    background: #000 url("img/zeus-dalmatian-cover.jpg") center center;
+    background: #000 url("img/zeus-dalmatian-cover-blur.jpg") center center;
     width: 100%;
     background-size: cover;
     overflow: hidden;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 </style>
