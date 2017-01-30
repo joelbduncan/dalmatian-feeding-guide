@@ -34,17 +34,16 @@
         </li>
         <li><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
       </ul>
-      <ul class="nav pull-right">
-      <div class="dropdown">
-        <button class="btn btn-default navbar-btn dropdown-toggle pull-right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Theme <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li><a href="#" data-theme="flatly" class="theme-link">Light</a></li>
-          <li><a href="#" data-theme="darkly" class="theme-link">Dark</a></li>
-        </ul>
-      </ul>
-      </div>
-    </div><!--/.nav-collapse -->
-  </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <div class="btn-group">
+            <button data-toggle="dropdown" class="btn navbar-btn btn-success dropdown-toggle">Theme <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#" data-theme="flatly" class="theme-link">Light</a></li>
+              <li><a href="#" data-theme="darkly" class="theme-link">Dark</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!--/.nav-collapse -->
+    </div>
 </nav>
