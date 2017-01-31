@@ -33,90 +33,63 @@
                 </h1>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="https://www.royalcanin.co.uk/products/dog/breed-health-nutrition/dalmatian-adult/">
-                    <img class="img-responsive" src="img/dalmatian-royal-canin-adult-700x400.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://www.royalcanin.co.uk/products/dog/breed-health-nutrition/dalmatian-adult/">Royal Canin Dalmatian</a>
-                </h3>
-                <p>Complete feed for dogs - Specially for adult and mature Dalmatians - Over 15 months old.</p>
-                <div class="col-xs-12 col-md-6">
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#royal-canin-dalmatian-info">Ingredients</button>
-                </div>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="https://www.royalcanin.co.uk/products/dog/breed-health-nutrition/dalmatian-junior/">
-                    <img class="img-responsive" src="img/dalmatian-royal-canin-junior-700x400.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://www.royalcanin.co.uk/products/dog/breed-health-nutrition/dalmatian-junior/">Royal Canin Dalmatian Junior</a>
-                </h3>
-                <p>Complete feed for dogs - Specially for Dalmatian puppies - Up to 15 months old.</p>
-                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#royal-canin-dalmatian-junior-info">Ingredients</button>
-            </div>
-            <!--
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        //-->
-        <!-- /.row -->
+        <?php
+        include 'config.php';
 
-      <div class="modal fade" id="royal-canin-dalmatian-info" role="dialog">
-        <div class="modal-dialog">
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
 
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Ingredients</h4>
-            </div>
-            <div class="modal-body">
-              <p>COMPOSITION: Rice, maize fl our, vegetable protein isolate*, animal fats, egg powder, wheat fl our, maize gluten, minerals, vegetable fi bres, hydrolysed animal proteins, fi sh oil, soya oil, green tea and grape extracts (source of polyphenols), marigold extract (source of lutein), hydrolysed crustaceans (source of glucosamine), hydrolysed cartilage (source of chondroitin).</p>
-              <p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 28300 IU, Vitamin D3: 800 IU, E1 (Iron): 82 mg, E2 (Iodine): 5 mg, E4 (Copper): 4 mg, E5 (Manganese): 55 mg, E6 (Zinc): 194 mg, E8 (Selenium): 0.25 mg, Taurine: 2 g - Preservatives - Antioxidants</p>
-              <p>ANALYTICAL CONSTITUENTS: Protein : 22 % - Fat content : 18 % - Crude ash : 6.4 % - Crude fibres : 2.8 % - EPA and DHA fatty acids : 3g/kg, Taurine: 2g.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
+        $sql = "SELECT id, title, paragraph, ingredients, link, image FROM food";
+        $result = $conn->query($sql);
 
-        </div>
-      </div>
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+              echo '<div class="container">
+                      <div class="row">
+                          <div class="col-md-4 portfolio-item">
+                              <a href="' . $row["link"] .'">
+                                  <img class="img-responsive" src="' . $row["image"] .'" alt="">
+                              </a>
+                              <h3>
+                                  <a href="' . $row["link"] .'">' . $row["title"] .'</a>
+                              </h3>
+                              <p>' . $row["paragraph"] .'</p>
+                              <p><button type="button" class="btn-sm btn-info" data-toggle="modal" data-target="#' . $row["id"] .'">Ingredients</button></p>
+                          </div>
 
-          <div class="modal fade" id="royal-canin-dalmatian-junior-info" role="dialog">
-            <div class="modal-dialog">
+                        <div class="modal fade" id="' . $row["id"] .'" role="dialog">
+                          <div class="modal-dialog">
 
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Ingredients</h4>
-                </div>
-                <div class="modal-body">
-                  <p>COMPOSITION: rice, dehydrated poultry protein, vegetable protein isolate*, maize, animal fats, dehydrated pork protein*, hydrolysed animal proteins, minerals, beet pulp, vegetable fibres, soya oil, fish oil, psyllium husks and seeds, fructo-oligo-saccharides, hydrolysed yeast (source of manno-oligo-saccharides), hydrolysed crustaceans (source of glucosamine), marigold extract (source of lutein), hydrolysed cartilage (source of chondroitin).</p>
-                  <p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 26500 IU, Vitamin D3: 700 IU, E1 (Iron): 53 mg, E2 (Iodine): 5.3 mg, E4 (Copper):10 mg, E5 (Manganese): 69 mg, E6 (Zinc): 206 mg, E8 (Selenium): 0.12 mg, L-carnitine: 300 mg - Preservatives - Antioxidants.</p>
-                  <p>ANALYTICAL CONSTITUENTS: Protein: 31% - Fat content: 16% - Crude ash: 7.8% - Crude fibres: 2% - Per kg: Calcium: 12 g - Phosphorus: 9 g.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">' . $row["title"] .': Ingredients</h4>
+                              </div>
+                              <div class="modal-body">
+                                ' . $row["ingredients"] .'
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>';
+            }
+        } else {
+            echo "0 results";
+        }
+        ?>
+
     </div>
+  </div>
 
 <?php include('footer.php'); ?>
 
