@@ -13,11 +13,13 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"' ?>><a href="index.php">Home</a></li>
+        <li <?php if (basename($_SERVER['PHP_SELF']) == 'three-rules.php') echo 'class="active"' ?>
         <li <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'class="active"' ?>
         <li <?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'class="active"' ?>
             <?php if (basename($_SERVER['PHP_SELF']) == 'dry-food-guide.php') echo 'class="active"' ?> class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li <?php if (basename($_SERVER['PHP_SELF']) == 'three-rules.php') echo 'class="active"' ?>><a href="three-rules.php">Three Rules</a></li>
             <li <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'class="active"' ?>><a href="purine-guide.php">Purine Table</a></li>
             <li <?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'class="active"' ?>><a href="advanced-purine-guide.php">Advanced Purine Table</a></li>
             <li <?php if (basename($_SERVER['PHP_SELF']) == 'dry-food-guide.php') echo 'class="active"' ?>><a href="dry-food-guide.php">Dry Food</a></li>

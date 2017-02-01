@@ -73,12 +73,11 @@ body {
   </div>
 
   <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
         <h2>Three Rules</h2>
         <p>Maintaining a happy healthy Dalmatian isn't a harrowing task, following these three simple rules will give your Dalmatian the highest change of living a long healthy and happy life.</p>
-        <p><a class="btn btn-default" href="faq.php" role="button">View page &raquo;</a></p>
+        <p><a class="btn btn-default" href="three-rules.php" role="button">View page &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2>Purine Guide</h2>
