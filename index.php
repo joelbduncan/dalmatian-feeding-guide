@@ -43,7 +43,7 @@ body {
     <div class="container">
       <h1>Welcome!</h1>
       <p>This website was created to combine information on feeding Dalmatians food that will prevent the formation of stones into one modern easy to navigate and understand website.</p>
-      <p>All information provided is from reputable sources, if you think we have gotten something wrong feel to contact us!</p>
+      <p>All information provided is from reputable sources, if you think we have gotten something wrong feel free to contact us!</p>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#importantModal">Why this Matters</button>
     </div>
   </div>
@@ -76,6 +76,11 @@ body {
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
+        <h2>Three Rules</h2>
+        <p>Maintaining a happy healthy Dalmatian isn't a harrowing task, following these three simple rules will give your Dalmatian the highest change of living a long healthy and happy life.</p>
+        <p><a class="btn btn-default" href="faq.php" role="button">View page &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
         <h2>Purine Guide</h2>
         <p>Simple searchable table with easy to understand colour-coding breaking down purine contents of many foods. If you would like detailed information on the purine levels in food please see our <a href="advanced-purine-guide.php">Advanced Purine Guide.</p>
         <p><a class="btn btn-default" href="purine-guide.php" role="button">View page &raquo;</a></p>
@@ -85,11 +90,6 @@ body {
         <p>We have combined thoughts from the Dalmatian community and searched the web for dry foods suitable for our spotty friends. Along with the best ways to feed it and ways to make it a little more existing!</p>
         <p><a class="btn btn-default" href="dry-food-guide.php" role="button">View page &raquo;</a></p>
      </div>
-      <div class="col-md-4">
-        <h2>FAQ</h2>
-        <p>For more information on who runs the site, our sources, how to use the site and some general facts on why Dalmatians require a low purine diet please see our FAQ.</p>
-        <p><a class="btn btn-default" href="faq.php" role="button">View page &raquo;</a></p>
-      </div>
     </div>
   </div>
 

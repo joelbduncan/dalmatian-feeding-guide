@@ -21,6 +21,17 @@
 <?php include('navbar.php'); ?>
 
 <div class="container">
+  <!-- Page Header -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Purine Guide
+                <small>Something missing? Let us know!</small>
+          </h1>
+      </div>
+  </div>
+</div>
+
+<div class="container">
   <div class="form-group pull-right">
       <input type="text" class="search form-control" placeholder="What you looking for?">
   </div>
