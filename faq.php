@@ -25,11 +25,14 @@
   <div class="row">
       <div class="col-lg-12">
           <h1 class="page-header">FAQ
-                <!--<small>Link to feeding practices</small>-->
+                <small>Frequently asked questions</small>
           </h1>
       </div>
   </div>
 </div>
+
+<div class="container ">
+    <div class="panel-group" id="faqAccordion">
 
 <?php
 include 'config.php';
@@ -47,9 +50,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-      echo '<div class="container ">
-          <div class="panel-group" id="faqAccordion">
-              <div class="panel panel-default ">
+      echo '<div class="panel panel-default ">
                   <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#' . $row["id"] .'">
                        <h4 class="panel-title">
                           <a href="#" class="ing">Q: ' . $row["question"] .'</a>
@@ -63,10 +64,7 @@ if ($result->num_rows > 0) {
                           <p>' . $row["answer"] .'</p>
                       </div>
                   </div>
-              </div>
-          </div>
-          <!--/panel-group-->
-      </div>';
+              </div>';
 
     }
 } else {
