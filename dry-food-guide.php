@@ -34,6 +34,10 @@
             </div>
         </div>
 
+        <div class="alert alert-info">
+          <strong>Tip!</strong> Dalmatians need plenty of Fresh Water especailly you're feeding dry food. Considering adding it to there biscuits!
+        </div>
+
         <?php
         include 'config.php';
 
