@@ -35,7 +35,7 @@
     <div class="col-md-4">
       <h2><small>One</small></h2>
       <h2>A Healthy Diet Low in Purines</h2>
-      <p>Its a misconception that low purines means low protein. Dalmatian need a relatively high protein diet but due to to their unique uric acid metabolism this must be human-grade protein low in purines. Suitable sources of low purine protein sources can be found in our <a href="purine-guide.php">Purine Guide.</a> Also check out our <a href="purine-guide.php">Dry Food Guide.</a></p>
+      <p>Its a misconception that low purines means low protein. Dalmatian need a relatively high protein diet but due to to their unique uric acid metabolism this must be human-grade protein low in purines. Suitable sources of low purine protein sources can be found in our <a href="purine-guide.php">Purine Guide.</a> Also check out our <a href="dry-food.php">Dry Food Guide.</a></p>
 
     </div>
     <div class="col-md-4">
