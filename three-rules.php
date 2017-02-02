@@ -53,7 +53,6 @@ html, body {
 
 </style>
 
-
 <div id="dalmatian-header">
   <div class="row">
     <div class="col-md-4">
