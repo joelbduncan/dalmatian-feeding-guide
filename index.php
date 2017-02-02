@@ -25,6 +25,10 @@ body {
   padding-bottom: 20px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* Jumbotron cover photo */
 .jumbotron {
     position: relative;

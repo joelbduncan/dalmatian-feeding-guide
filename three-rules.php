@@ -7,8 +7,8 @@
 <head>
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="//bootswatch.com/flatly/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -30,7 +30,31 @@
   </div>
 </div>
 
-<div class="container">
+<style>
+
+html, body {
+  overflow-x: hidden;
+}
+
+#dalmatian-header {
+    position: relative;
+    background: #fff url("img/dalmatian-header-three-rules.jpg") center center;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 640px){ #dalmatian-header { background: none; text-shadow: none; color: black; background-image: none !important; } }
+
+</style>
+
+
+<div id="dalmatian-header">
   <div class="row">
     <div class="col-md-4">
       <h2><small>One</small></h2>
