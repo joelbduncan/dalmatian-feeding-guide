@@ -49,7 +49,7 @@ html, body {
     padding-bottom: 2%;
 }
 
-@media only screen and (max-width: 640px){ #dalmatian-header { background: none; text-shadow: none; color: black; background-image: none !important; } }
+@media only screen and (max-width: 640px){ #dalmatian-header { background: white; text-shadow: none; color: black; !important; } }
 
 </style>
 
