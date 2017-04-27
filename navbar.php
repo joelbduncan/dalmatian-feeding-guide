@@ -34,7 +34,7 @@
             <li><a href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a></li>
           </ul>
         </li>
-        <li><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
+        <li <?php if (basename($_SERVER['PHP_SELF']) == 'faq.php') echo 'class="active"' ?>><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
