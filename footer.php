@@ -9,7 +9,7 @@
 
 <script>
 var themes = {
-    "flatly" : "//bootswatch.com/flatly/bootstrap.min.css",
+    "flatly" : "//bootswatch.com/3/flatly/bootstrap.min.css",
     "darkly" : "//bootswatch.com/darkly/bootstrap.min.css"
 }
 $(function(){
