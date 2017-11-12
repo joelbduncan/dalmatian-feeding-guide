@@ -10,7 +10,7 @@
 <script>
 var themes = {
     "flatly" : "//bootswatch.com/3/flatly/bootstrap.min.css",
-    "darkly" : "//bootswatch.com/darkly/bootstrap.min.css"
+    "darkly" : "//bootswatch.com/3/darkly/bootstrap.min.css"
 }
 $(function(){
     function getCookie(c_name) {
