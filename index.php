@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Dalmatian Feeding Guide</title>
 
-<head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" type="text/css" href="//bootswatch.com/3/flatly/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css" />
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="//bootswatch.com/4/flatly/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/table.js"></script>
@@ -16,7 +15,7 @@
 
 <body>
 
-<?php include('navbar.php'); ?>
+<!--?php include('navbar.php'); ?-->
 
 <style>
 /* Move down content because we have a fixed navbar that is 50px tall */
@@ -59,44 +58,44 @@ html, body {
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button" class="close" data-dismiss="modal">×</button>
           <h4 class="modal-title">Why is This Important?</h4>
         </div>
         <div class="modal-body">
           <p>Dalmatians' livers have trouble breaking down uric acid, which can build up in the blood serum <a href="https://en.wikipedia.org/wiki/Hyperuricemia">(hyperuricemia)</a> causing gout.
           Uric acid can also be excreted in high concentration into the urine, causing kidney stones and bladder stones.
-          These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide.php"><b>low purine diet<b>.</p></a>
-          <img style="border-radius: 10px; box-shadow: rgba(0,0,0,0.8) 0 0 10px;" class="img-responsive" src="img/dalmatian-why-it-matters.jpg" alt="Healthy Dalmatian">
-        </div>
+          These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide.php"><b>low purine diet<b>.</b></b></a></p><b><b>
+          <img style="border-radius: 10px; box-shadow: rgba(0,0,0,0.8) 0 0 10px;" class="img-fluid" src="img/dalmatian-why-it-matters.jpg" alt="Healthy Dalmatian">
+        </b></b></div><b><b>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
-      </div>
+      </b></b></div><b><b>
 
-    </div>
-  </div>
+    </b></b></div><b><b>
+  </b></b></div><b><b>
 
   <div class="container">
     <div class="row">
       <div class="col-md-4">
         <h2>Three Rules</h2>
         <p>Maintaining a happy healthy Dalmatian isn't a harrowing task, following these three simple rules will give your Dalmatian the highest change of living a long healthy and happy life.</p>
-        <p><a class="btn btn-default" href="three-rules.php" role="button">View page &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="three-rules.php" role="button">View page »</a></p>
       </div>
       <div class="col-md-4">
         <h2>Purine Guide</h2>
-        <p>Simple searchable table with easy to understand colour-coding breaking down purine contents of many foods. If you would like detailed information on the purine levels in food please see our <a href="advanced-purine-guide.php">Advanced Purine Guide.</p>
-        <p><a class="btn btn-default" href="purine-guide.php" role="button">View page &raquo;</a></p>
+        <p>Simple searchable table with easy to understand colour-coding breaking down purine contents of many foods. If you would like detailed information on the purine levels in food please see our <a href="advanced-purine-guide.php">Advanced Purine Guide.</a></p><a href="advanced-purine-guide.php">
+        </a><p><a href="advanced-purine-guide.php"></a><a class="btn btn-secondary" href="purine-guide.php" role="button">View page »</a></p>
       </div>
       <div class="col-md-4">
         <h2>Dry Food Guide</h2>
         <p>We have combined thoughts from the Dalmatian community and searched the web for dry foods suitable for our spotty friends. Along with the best ways to feed it and ways to make it a little more existing!</p>
-        <p><a class="btn btn-default" href="dry-food-guide.php" role="button">View page &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="dry-food-guide.php" role="button">View page »</a></p>
      </div>
     </div>
   </div>
 
-  <?php include('footer.php'); ?>
+  <!--?php include('footer.php'); ?-->
 
-</body>
-</html>
+
+</b></b></body></html>
