@@ -2,7 +2,7 @@
   <hr>
   <footer class="footer">
     <div class="container">
-      <p class="text-muted">Created by Joel Duncan | <a href="https://slethen.io">slethen.io</p>
+      <p class="text-muted">Created with <i style="color: red" class="fa fa-heart"></i> By <a href="https://slethen.io"> Joel Duncan</a></p>
     </div>
   </footer>
 </div>
