@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css" href="css/friends.css" />
   <link rel="stylesheet" type="text/css" href="//bootswatch.com/3/flatly/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="//bootswatch.com/3/flatly/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/table.js"></script>
@@ -44,8 +43,8 @@
                 </div>
             </div>
             <div class="card-footer">
-              <a href="https://www.facebook.com/CyprusPrideHouse/" class="btn btn-info btn-sm" role="button"><span class="fa fa-facebook"></a>
-              <a href="https://twitter.com/Cyp_Pride_House/" class="btn btn-info btn-sm" role="button"><span class="fa fa-twitter"></a>
+              <a href="https://www.facebook.com/CyprusPrideHouse/" class="btn btn-info btn-sm" role="button"><span class="fab fa-facebook-square"></a>
+              <a href="https://twitter.com/Cyp_Pride_House/" class="btn btn-info btn-sm" role="button"><span class="fab fa-twitter-square"></a>
               <a href="http://cypruspridehouse.org/" class="btn btn-info btn-sm" role="button"><span class="fa fa-globe"></a>
               <a class="btn btn-success btn-sm" href="http://cypruspridehouse.org/donate/"><i class="fa fa-heart"></i> Donate</a>
             </div>
@@ -61,8 +60,8 @@
                 </div>
             </div>
             <div class="card-footer">
-              <a href="https://www.facebook.com/Fergusa-Dog-Food-Company-411862845845170/" class="btn btn-info btn-sm" role="button"><span class="fa fa-facebook"></a>
-              <a href="https://twitter.com/FergusaDogFood" class="btn btn-info btn-sm" role="button"><span class="fa fa-twitter"></a>
+              <a href="https://www.facebook.com/Fergusa-Dog-Food-Company-411862845845170/" class="btn btn-info btn-sm" role="button"><span class="fab fa-facebook-square"></a>
+              <a href="https://twitter.com/FergusaDogFood" class="btn btn-info btn-sm" role="button"><span class="fab fa-twitter-square"></a>
               <a href="https://www.fergusadogfoodcompany.co.uk/" class="btn btn-info btn-sm" role="button"><span class="fa fa-globe"></a>
               <a class="btn btn-success btn-sm" href="https://www.fergusadogfoodcompany.co.uk/shop"><i class="fa fa-shopping-bag"></i> Shop</a>
             </div>
