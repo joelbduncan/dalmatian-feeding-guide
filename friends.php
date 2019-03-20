@@ -50,6 +50,7 @@
             </div>
         </div>
     </div>
+
     <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
         <div class="card card-inverse card-info">
             <img class="card-img-top" src="img/fergusa-banner.jpg">
@@ -67,6 +68,25 @@
             </div>
         </div>
     </div>
+
+    <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
+        <div class="card card-inverse card-info">
+            <img class="card-img-top" src="img/fergusa-banner.jpg">
+            <div class="card-block">
+                <h4 class="card-title">Hairy Hounz</h4>
+                <div class="card-text">
+                    Dedicated to rehoming local ill-treated, abandoned or unwanted dogs in Hampshire England.
+                </div>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.facebook.com/friendsofthehairyhounz/" class="btn btn-info btn-sm" role="button"><span class="fab fa-facebook-square"></a>
+              <a href="https://twitter.com/hairy_hounz" class="btn btn-info btn-sm" role="button"><span class="fab fa-twitter-square"></a>
+              <a href="https://hairyhounz.co.uk/" class="btn btn-info btn-sm" role="button"><span class="fa fa-globe"></a>
+              <a class="btn btn-success btn-sm" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BFMNXFVKDUVAS&source=url"><i class="fa fa-heart"></i> Donate</a>
+            </div>
+        </div>
+    </div>
+
   </div>
 </div>
 
