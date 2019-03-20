@@ -4,7 +4,7 @@
   <hr>
   <footer class="footer">
     <div class="container">
-      <p class="text-muted">Created with <i style="color: red" class="fa fa-heart"></i> by <a href="https://slethen.io"> Joel Duncan</a></p>
+      <p class="text-muted">Created with <i style="color: red" class="fa fa-heart"></i> by <a href="https://joelduncan.io"> Joel Duncan</a></p>
     </div>
   </footer>
 </div>
