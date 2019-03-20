@@ -71,7 +71,7 @@
 
     <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
         <div class="card card-inverse card-info">
-            <img class="card-img-top" src="img/fergusa-banner.jpg">
+            <img class="card-img-top" src="img/hairy-hounz-banner.jpg">
             <div class="card-block">
                 <h4 class="card-title">Hairy Hounz</h4>
                 <div class="card-text">
