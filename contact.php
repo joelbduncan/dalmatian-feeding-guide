@@ -3,11 +3,11 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $human = intval($_POST['human']);
+    $human = intval($_POST['human'];
+    $honeypot = ($_POST['firstname']);
     $from = 'Dalmatian Feeding Guide';
     $to = 'joel@slethen.io';
     $subject = 'Message from Dalmatian Feeding Guide';
-    $honeypot = $_POST['firstname'];
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
