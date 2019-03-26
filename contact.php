@@ -1,9 +1,13 @@
 <?php
+
+   if($_POST['firstname'] != ''){
+   die("You spammer!");
+   }
+
   if (isset($_POST["submit"])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $honeypot = $_POST['firstname'];
     $human = intval($_POST['human']);
     $from = 'Dalmatian Feeding Guide';
     $to = 'joel@slethen.io';
@@ -30,20 +34,16 @@
       $errHuman = 'Your anti-spam is incorrect';
     }
 
-    if( $honeypot > 1 ){
-      return; //you may add code here to echo an error etc.
-    }else{
-      // If there are no errors, send the email
-      if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-        if (mail ($to, $subject, $body, $from)) {
-          $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-        } else {
-          $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-        }
-      }
+  // If there are no errors, send the email
+  if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+    if (mail ($to, $subject, $body, $from)) {
+      $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+    } else {
+      $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
     }
   }
-?>
+    }
+  ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -85,8 +85,8 @@
   	<div class="form-group">
   		<label for="name" class="col-sm-2 control-label">Name</label>
   		<div class="col-sm-10">
-        <input name="firstname" type="text" id="firstname" class="human">
-  			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+        <input name="firstname" type="text" id="firstname" class="human" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+  			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['firstname']); ?>">
   			<?php echo "<p class='text-danger'>$errName</p>";?>
   		</div>
   	</div>
