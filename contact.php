@@ -3,8 +3,8 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $human = intval($_POST['human'];
-    $honeypot = ($_POST['firstname']);
+    $honeypot = $_POST['firstname'];
+    $human = intval($_POST['human']);
     $from = 'Dalmatian Feeding Guide';
     $to = 'joel@slethen.io';
     $subject = 'Message from Dalmatian Feeding Guide';
