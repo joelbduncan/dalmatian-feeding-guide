@@ -1,7 +1,9 @@
 <?php
 
    if($_POST['firstname'] != ''){
-   die("You spammer!");
+   //die("You spammer!");
+   header('Location: /contact.php');
+   die("");
    }
 
   if (isset($_POST["submit"])) {
