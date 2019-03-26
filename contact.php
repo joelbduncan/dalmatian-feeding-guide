@@ -7,6 +7,7 @@
     $from = 'Dalmatian Feeding Guide';
     $to = 'joel@slethen.io';
     $subject = 'Message from Dalmatian Feeding Guide';
+    $honeypot = $_POST['firstname'];
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -29,14 +30,18 @@
       $errHuman = 'Your anti-spam is incorrect';
     }
 
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-  if (mail ($to, $subject, $body, $from)) {
-    $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-  } else {
-    $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-  }
-}
+    if( $honeypot > 1 ){
+      return; //you may add code here to echo an error etc.
+    }else{
+      // If there are no errors, send the email
+      if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+        if (mail ($to, $subject, $body, $from)) {
+          $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+        } else {
+          $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+        }
+      }
+    }
   }
 ?>
 
@@ -45,6 +50,12 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Dalmatian Feeding Guide</title>
+
+<style>
+  .human {
+    display:none;
+  }
+</style>
 
 <head>
   <meta charset=utf-8>
@@ -74,6 +85,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
   	<div class="form-group">
   		<label for="name" class="col-sm-2 control-label">Name</label>
   		<div class="col-sm-10">
+        <input name="firstname" type="text" id="firstname" class="human">
   			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
   			<?php echo "<p class='text-danger'>$errName</p>";?>
   		</div>
