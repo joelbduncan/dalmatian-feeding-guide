@@ -1,50 +1,90 @@
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Dalmatian Feeding Guide</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"' ?>><a href="index.php">Home</a></li>
-        <li <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'class="active"' ?>
-        <li <?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'class="active"' ?>
-            <?php if (basename($_SERVER['PHP_SELF']) == 'dry-food-guide.php') echo 'class="active"' ?> class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'class="active"' ?>><a href="purine-guide.php">Purine Table</a></li>
-            <li <?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'class="active"' ?>><a href="advanced-purine-guide.php">Advanced Purine Table</a></li>
-            <li <?php if (basename($_SERVER['PHP_SELF']) == 'dry-food-guide.php') echo 'class="active"' ?>><a href="dry-food-guide.php">Dry Food</a></li>
-          </ul>
-        </li>
-        <li <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"' ?> class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"' ?>><a href="contact.php">Contact Us</a></li>
-            <li <?php if (basename($_SERVER['PHP_SELF']) == 'friends.php') echo 'class="active"' ?>><a href="friends.php">Friends</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Useful Links</li>
-            <li><a href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a></li>
-          </ul>
-        </li>
-        <li><a href="faq.php"><span class="glyphicon glyphicon-book"></span> FAQ</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <div class="btn-group">
-            <button data-toggle="dropdown" class="btn navbar-btn btn-success dropdown-toggle">Theme <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#" data-theme="flatly" class="theme-link">Light</a></li>
-              <li><a href="#" data-theme="darkly" class="theme-link">Dark</a></li>
-            </ul>
-          </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+  <a class="navbar-brand" href="index.php">Dalmatian Feeding Guide</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active' ?>">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown  <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'active' ?><?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'active' ?><?php if (basename($_SERVER['PHP_SELF']) == 'three-rules.php') echo 'active' ?><?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'active' ?>">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Guides
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'three-rules.php') echo 'active' ?>" href="three-rules.php">Three Rules</a>
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'purine-guide.php') echo 'active' ?>" href="purine-guide.php">Purine Table</a>
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'advanced-purine-guide.php') echo 'active' ?>" href="advanced-purine-guide.php">Advanced Purine Table</a>
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'dry-food-guide.php') echo 'active' ?>" href="dry-food-guide.php">Dry Food</a>
         </div>
-      </div><!--/.nav-collapse -->
+      </li>
+      <li class="nav-item dropdown <?php if (basename($_SERVER['PHP_SELF']) == 'friends.php') echo 'active' ?><?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active' ?>">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active' ?>" href="contact.php">Contact Us</a>
+          <a class="dropdown-item <?php if (basename($_SERVER['PHP_SELF']) == 'friends.php') echo 'active' ?>" href="friends.php">Friends</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-header">Useful Links</a>
+          <a class="dropdown-item" href="http://www.dalmatianwelfare.co.uk/">Dalmatian Welfare</a>
+        </div>
+      </li>
+      <li class="nav-item <?php if (basename($_SERVER['PHP_SELF']) == 'faq.php') echo 'active' ?>">
+        <a class="nav-link" href="faq.php"><i class="fas fa-book"></i> FAQ</a>
+      </li>
+    </ul>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Theme
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item theme-link" href="#" data-theme="flatly" class="theme-link">Light</a>
+        <a class="dropdown-item theme-link" href="#" data-theme="darkly" class="theme-link">Dark</a>
+      </div>
     </div>
+  </div>
 </nav>
+</div>
+
+<script>
+var themes = {
+    "flatly" : "//bootswatch.com/4/flatly/bootstrap.min.css",
+    "darkly" : "//bootswatch.com/4/darkly/bootstrap.min.css"
+}
+$(function(){
+    function getCookie(c_name) {
+        if (document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
+            if (c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                c_end = document.cookie.indexOf(";", c_start);
+                if (c_end == -1) c_end = document.cookie.length;
+                return unescape(document.cookie.substring(c_start, c_end));
+            }
+        }
+        return "default";
+    }
+
+    function setCookie(c_name, value) {
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + 7);
+        document.cookie = c_name + "=" + escape(value) + ";path=/;expires=" + exdate.toUTCString();
+    }
+
+    var setTheme = getCookie('setTheme');
+
+    var themesheet = $('<link href="'+themes[getCookie('setTheme')]+'" rel="stylesheet" />');
+
+    themesheet.appendTo('head');
+
+    $('.theme-link').click(function(){
+        var themeurl = themes[$(this).attr('data-theme')];
+        setCookie('setTheme', $(this).attr('data-theme'));
+        themesheet.attr('href',themeurl);
+    });
+});
+</script>
