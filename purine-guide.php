@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Advanced Purine Guide</h1>
+                <h1 class="page-header">Purine Guide</h1>
                 <h3><small class="text-muted">Something missing? Let us know!</small></h3> </div>
         </div>
     </div>
