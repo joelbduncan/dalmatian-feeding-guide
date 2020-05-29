@@ -51,7 +51,7 @@
               </button>
           </div>
           <div class="modal-body">
-              <p>Dalmatians&apos; livers have trouble breaking down uric acid, which can build up in the blood serum <a href="https://en.wikipedia.org/wiki/Hyperuricemia">(hyperuricemia)</a> causing gout. Uric acid can also be excreted in high concentration into the urine, causing kidney stones and bladder stones. These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide.php"><b>low purine diet<b>.</b></b></a></p>
+              <p>Dalmatians&apos; livers have trouble breaking down uric acid, which can build up in the blood serum <a href="https://en.wikipedia.org/wiki/Hyperuricemia">(hyperuricemia)</a> causing gout. Uric acid can also be excreted in high concentration into the urine, causing kidney stones and bladder stones. These conditions are most likely to occur in middle-aged males. The chances of this happening can be greatly reduced with a <a href="purine-guide"><b>low purine diet<b>.</b></b></a></p>
               <img style="border-radius: 10px; box-shadow: rgba(0,0,0,0.8) 0 0 10px;" src="img/dalmatian-why-it-matters.jpg" class="img-fluid" alt="Healthy Dalmatian" />
           </div>
           <div class="modal-footer">
@@ -92,7 +92,7 @@
                 <p>Maintaining a happy healthy Dalmatian isn&apos;t a harrowing task, following these three simple rules will give your Dalmatian the highest change of living a long healthy and happy life.</p>
             </div>
             <div class="card-footer">
-                <a class="btn btn-primary" href="three-rules.php">View page &#xBB;</a>
+                <a class="btn btn-primary" href="three-rules">View page &#xBB;</a>
             </div>
         </div>
     </div>
@@ -102,10 +102,10 @@
             <div class="card-header">
                 <h3>Purine Guide</h3></div>
             <div class="card-body">
-                <p>Simple searchable table with easy to understand colour-coding breaking down purine contents of many foods. If you would like detailed information on the purine levels in food please see our <a href="advanced-purine-guide.php">Advanced Purine Guide.</a></p>
+                <p>Simple searchable table with easy to understand colour-coding breaking down purine contents of many foods. If you would like detailed information on the purine levels in food please see our <a href="advanced-purine-guide">Advanced Purine Guide.</a></p>
             </div>
             <div class="card-footer">
-                <a class="btn btn-primary" href="purine-guide.php">View page &#xBB;</a>
+                <a class="btn btn-primary" href="purine-guide">View page &#xBB;</a>
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@
                 <p>We have combined thoughts from the Dalmatian community and searched the web for dry foods suitable for our spotty friends. Along with the best ways to feed it and ways to make it a little more existing!</p>
             </div>
             <div class="card-footer">
-                <a class="btn btn-primary" href="dry-food-guide.php">View page &#xBB;</a>
+                <a class="btn btn-primary" href="dry-food-guide">View page &#xBB;</a>
             </div>
         </div>
     </div>
