@@ -12,6 +12,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="//bootswatch.com/4/flatly/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
+  <script async defer data-domain="dalmatian-feeding-guide.org" src="https://plausible.joelduncan.io/js/plausible.js"></script>
 </head>
 
 <body>

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/purine-table.css">
   <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
   <script src="js/table.js"></script>
+  <script async defer data-domain="dalmatian-feeding-guide.org" src="https://plausible.joelduncan.io/js/plausible.js"></script>
 </head>
 
 <body>
