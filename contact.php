@@ -83,47 +83,17 @@ if($_POST['firstname'] != ''){
 			</div>
 		</main>
 		<div class="container">
-			<form class="form-horizontal" role="form" method="post" action="contact.php">
-				<div class="form-group">
-					<label for="name" class="col-sm-2 control-label">Name</label>
-					<div class="col-sm-10">
-						<input name="firstname" type="text" id="firstname" class="human" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-						<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['firstname']); ?>">
-						<?php echo "<p class='text-danger'>$errName</p>";?>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="email" class="col-sm-2 control-label">Email</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-						<?php echo "<p class='text-danger'>$errEmail</p>";?>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message" class="col-sm-2 control-label">Message</label>
-					<div class="col-sm-10">
-						<textarea class="form-control" rows="4" name="message">
-							<?php echo htmlspecialchars($_POST['message']);?>
-						</textarea>
-						<?php echo "<p class='text-danger'>$errMessage</p>";?>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-						<?php echo "<p class='text-danger'>$errHuman</p>";?>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary"> </div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-10 col-sm-offset-2">
-						<?php echo $result; ?>
-					</div>
-				</div>
+			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mknkgopd" method="post">
+				<fieldset id="fs-frm-inputs">
+					<label for="full-name">Full Name</label>
+					<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+					<label for="email-address">Email Address</label>
+					<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+					<label for="message">Message</label>
+					<textarea rows="5" name="message" id="message" placeholder="Your message" required=""></textarea>
+					<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+				</fieldset>
+				<input type="submit" value="Submit">
 			</form>
 		</div>
 		</div>
