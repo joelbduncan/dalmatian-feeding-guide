@@ -1,0 +1,216 @@
+food,level,total_purines,min,max,nutrient_density
+Apple,low,14.0,,,60.10
+Apricot,low,73.0,,,71.60
+Artichoke,low,78.0,,,834.60
+Asparagus,low,23.0,19.71,29.57,310.90
+Aubergine,low,21.0,,,290.00
+Avocado,low,19.0,,,20.90
+Bamboo Shoots,low,29.0,,,402.10
+Banana,low,57.0,,,152.40
+"Barley without husk, whole grain",low,96.0,,,71.10
+"Bean sprouts, Soya",low,80.0,,,378.30
+"Bean, seed, white, dry",medium,128.0,,,127.10
+"Bean, Soya, seed, dry",medium,190.0,,,139.10
+"Beans, French (string beans, haricot)",low,37.0,20,43,266.90
+"Beans, French, dried",low,45.0,40,50,39.40
+"Beef, chuck",medium,120.0,,,192.00
+"Beef, corned (German)",low,57.0,,,96.50
+"Beef, fillet",medium,110.0,,,216.40
+"Beef, fore rib, entrecote",medium,120.0,,,185.40
+"Beef, muscles only",medium,133.0,,,292.10
+"Beef, roast beef, sirloin",medium,110.0,110,120,201.40
+"Beef, shoulder",medium,110.0,,,203.90
+"Beer, alcohol free",low,8.1,,,75.40
+"Beer, Pilsner lager beer, regular beer, German",low,13.0,,,75.20
+"Beer, real, light",low,14.0,,,86.00
+Beet root,low,19.0,15,21,108.50
+"Bilberry, blueberry, huckleberry",low,22.0,,,143.70
+"Black gram (mungo bean), seed, dry",medium,222.0,,,194.30
+"Brain, Calf's",low,92.0,,,203.10
+"Bread, wheat (flour) or (white bread)",low,14.0,,,13.90
+Broccoli,low,81.0,,,691.60
+Brussels sprouts,low,69.0,,,456.00
+"Cabbage, red",low,32.0,19.79,36.62,350.20
+"Cabbage, savoy",low,37.0,19.87,42.71,342.60
+"Cabbage, white",low,22.0,,,210.30
+Carrot,low,17.0,14,25,155.90
+Cauliflower,low,51.0,,,537.90
+Caviar (real),medium,144.0,,,141.60
+Caviar substitute,low,18.0,,,37.80
+Celeriac,low,30.0,,,390.60
+"Cheese, Brie",low,7.1,,,5.00
+"Cheese, Cheddar/Cheshire, 50% fat content",low,6.0,,,4.30
+"Cheese, cottage",low,9.4,,,22.00
+"Cheese, edam, 30% fat content in dry matter",low,7.1,,,6.80
+"Cheese, edam, 40% fat content in dry matter",low,7.1,,,5.40
+"Cheese, edam, 45% fat content in dry matter",low,7.1,,,4.80
+"Cheese, Limburger, 20% fat content in dry matter",low,32.0,,,41.70
+Chicken (breast with skin),medium,175.0,,,288.40
+"Chicken (chicken for roasting), average",medium,115.0,,,165.80
+"Chicken, boiling fowl, average",medium,159.0,,,149.20
+"Chicken, leg with skin, without bone",medium,110.0,,,152.20
+Chicory,low,12.0,,,171.80
+Chinese leaves,low,21.0,,,412.40
+Chives,low,67.0,,,581.20
+"Cocoa powder, partially de-oiled",low,71.0,,,49.70
+"Corn, sweet",low,52.0,,,140.90
+Cress,low,28.0,,,200.80
+Crispbread,low,60.0,,,44.90
+Cucumber,low,7.3,,,141.70
+"Date, dried",low,35.0,,,29.90
+"Duck, average",medium,138.0,,,146.20
+"Elderberry, black",low,33.0,,,144.40
+Endive,low,17.0,,,297.70
+Fennel leaves,low,14.0,10,16,139.00
+Fig (dried),low,64.0,,,60.40
+"Fish, Anchovy",medium,239.0,,,560.00
+"Fish, Carp",medium,160.0,,,330.90
+"Fish, Cod",medium,109.0,,,335.90
+"Fish, Crayfish",low,60.0,,,220.30
+"Fish, eel (smoked)",low,78.0,45,110,57.20
+"Fish, Haddock",medium,139.0,,,425.20
+"Fish, Halibut",medium,178.0,,,439.90
+"Fish, Herring roe",medium,190.0,,,342.40
+"Fish, Herring, Atlantic",medium,210.0,,,216.90
+"Fish, Herring, Matje cured",medium,219.0,,,197.60
+"Fish, Mackerel",medium,145.0,95,194,191.20
+"Fish, Pike-perch",medium,110.0,,,311.30
+"Fish, Redfish (ocean perch)",medium,241.0,,,544.10
+"Fish, Saithe (coalfish)",medium,163.0,,,473.40
+"Fish, salmon",medium,170.0,110,250,202.00
+"Fish, sardine, pilchard",medium,345.0,,,693.20
+"Fish, sardines in oil",high,480.0,399,560,519.50
+"Fish, Sole",medium,131.0,125,137,376.20
+"Fish, trout",medium,297.0,,,686.70
+"Fish, Tuna",medium,257.0,,,273.70
+"Fish, Tuna in oil",medium,290.0,,,246.20
+Frankfurter sausages,low,89.0,68.74,129.5,80.20
+Goose,medium,165.0,,,116.70
+Gooseberry,low,16.0,,,101.30
+"Grass, Viper's (black salsify)",low,71.0,,,939.40
+"Ham, cooked",medium,131.0,,,248.10
+"Heart, Sheep's",medium,241.0,,,367.60
+Horse meat,medium,200.0,,,438.80
+Kale,low,48.0,,,309.10
+"Kidney, Calf's",medium,218.0,,,419.60
+Kiwi fruit (Chinese gooseberry),low,19.0,,,88.50
+Kohlrabi,low,25.0,10.86,29.61,243.90
+Lamb (muscles only),medium,182.0,,,371.00
+Leek,low,74.0,,,714.10
+"Lentil, seed, dry",medium,127.0,114.4,164.6,93.80
+Lettuce,low,13.0,9.75,29.25,274.40
+"Lettuce, Lamb's",low,38.0,,,645.30
+Linseed,medium,105.0,,,67.40
+"Liver, Calf's",high,460.0,,,837.50
+"Liver, chicken",medium,243.0,,,426.30
+Lobster,medium,118.0,60,175,346.40
+"Lungs, Calf's",medium,147.0,,,389.10
+"Meat, luncheon",low,70.0,,,58.80
+"Melon, Cantaloupe",low,33.0,,,143.00
+"Millet, shucked corn",low,62.0,,,41.90
+Morel,low,30.0,,,748.90
+Mushroom,low,58.0,55.48,60.52,858.20
+"Mushroom, flat, edible Boletus, cep",low,92.0,,,999.99
+"Mushroom, flat, edible Boletus, dried",high,488.0,,,932.80
+"Mushrooms, canned, solid and liquid",low,29.0,,,488.50
+"Mushrooms, Chanterelle",low,17.0,,,356.20
+"Mushrooms, Chanterelles, canned, solids & liquids",low,17.0,,,114.20
+Mussel,medium,112.0,,,391.50
+"Neck sweet bread, Calf's",high,999.9,,,999.99
+"Nuts, Brazil",low,23.0,,,8.30
+"Nuts, hazelnut (cobnut)",low,37.0,27,42,13.90
+"Nuts, peanut",low,79.0,,,33.80
+"Oats, without husk, whole grain",low,94.0,,,63.60
+"Olive, green, marinated",low,29.0,,,51.10
+Orange,low,19.0,,,105.90
+Ox brain,low,75.0,,,140.70
+Ox heart,medium,256.0,,,504.30
+Ox kidney,medium,269.0,,,569.50
+Ox liver,high,554.0,,,999.99
+Ox lungs (lights),medium,399.0,,,961.40
+Ox spleen,high,444.0,,,999.99
+Ox tongue,medium,160.0,,,186.00
+Oyster,low,90.0,,,322.60
+"Oyster, mushroom",low,50.0,,,999.99
+"Parsley, leaf",low,57.0,,,266.20
+"Pasta made with egg (noodles, macaroni, spaghetti)",low,40.0,,,26.60
+"Pea, pod and seed, green",low,84.0,,,245.70
+"Pea, seed, dry",low,95.0,84.78,166.5,82.70
+Peach,low,21.0,,,119.60
+Pear,low,12.0,2,17,51.50
+"Peas, chick (garbanzo), seed, dry",medium,109.0,,,84.20
+"Peppers, green",low,55.0,,,681.00
+Pig's brain,low,83.0,,,161.71
+Pig's heart,high,530.0,,,999.99
+Pig's kidney,medium,334.0,,,784.50
+Pig's liver,high,515.0,,,937.90
+Pig's lungs (lights),high,434.0,,,911.20
+Pig's spleen,high,516.0,,,999.99
+Pig's tongue,medium,136.0,,,208.20
+Pike,medium,140.0,,,406.70
+Pineapple,low,19.0,,,81.40
+Plaice,low,93.0,,,257.60
+Plum,low,24.0,,,116.80
+"Plum, dried",low,64.0,,,67.90
+"Poppy seed, seed, dry",medium,170.0,,,86.00
+Pork belly,medium,100.0,80,110,92.30
+"Pork belly, raw, smoked dried",medium,127.0,,,82.60
+Pork chop with bone,medium,145.0,140,150,260.00
+Pork chuck,medium,140.0,135,145,170.40
+Pork fillet,medium,150.0,145,150,334.80
+Pork hip bone (hind leg),medium,120.0,115,130,155.00
+Pork leg (hind leg),medium,160.0,150,160,357.40
+Pork muscles only,medium,166.0,,,374.90
+Pork shoulder with skin (blade of shoulder),medium,150.0,145,150,165.20
+Potato,low,16.0,,,53.60
+"Potato, cooked with skin",low,18.0,,,60.30
+"Pudding, black",low,55.0,37.23,90.55,42.80
+Pumpkin,low,44.0,,,422.00
+Quince,low,30.0,,,185.00
+"Rabbit meat, average with bone",medium,132.0,95,150,207.70
+Rabbit/Hare (average),medium,105.0,,,219.40
+Radish,low,15.0,,,234.30
+Radishes,low,13.0,,,210.60
+Raspberry,low,18.0,,,126.30
+"Rolls, bread",low,21.0,,,18.20
+"Rye, whole grain",low,51.0,47,63,41.00
+"Sauerkraut, dripped off",low,16.0,12,20,224.70
+"Sausage ""Bierschinken""",low,85.0,,,117.30
+"Sausage ""Fleischwurst""",low,78.0,,,66.80
+"Sausage ""Jagdwurst""",medium,112.0,,,127.80
+"Sausage ""Mortadella""",low,96.0,79,130,67.40
+"Sausage ""Munich Weisswurst""",low,73.0,,,65.70
+"Sausage salami, German",medium,104.0,,,65.90
+"Sausage, liver (liverwurst)",medium,165.0,,,122.20
+"Sausage, Vienna",low,78.0,,,65.70
+"Sausages, frying, from pork",medium,101.0,,,80.20
+"Sausages, frying, from veal",low,91.0,,,81.50
+"Sausages, German (Mettwurst)",low,74.0,,,45.90
+Scallop,medium,136.0,,,505.80
+"Sesame (gingelly) seed, Oriental, dry",low,62.0,,,26.50
+Sheep's spleen,high,773.0,,,999.99
+"Shrimp, brown",medium,147.0,60,234,397.90
+Spinach,low,57.0,,,844.70
+"Spleen, Calf's",medium,343.0,,,815.90
+"Sprat, smoked",high,804.0,,,795.60
+"Squash, summer",low,24.0,,,296.20
+Strawberry,low,21.0,11.81,25.59,156.80
+"Sunflower seed, dry",medium,143.0,,,59.50
+Tench,low,80.0,,,243.80
+Theobromine,high,999.9,,,999.99
+Tofu,low,68.0,,,196.40
+Tomato,low,11.0,,,145.70
+"Turkey, young animal, average, with skin",medium,150.0,,,237.30
+"Veal chop, cutlet with bone",medium,140.0,,,309.60
+Veal fillet,medium,140.0,,,347.30
+Veal knuckle with bone,medium,150.0,140,160,353.20
+"Veal, leg of veal with bone",medium,150.0,140,150,310.20
+"Veal, muscles only",medium,172.0,,,438.70
+"Veal, neck with bone",medium,150.0,,,326.90
+"Veal, shoulder",medium,140.0,,,309.30
+Venison back,medium,105.0,,,205.00
+Venison haunch (leg),medium,138.0,105,154,336.50
+"Wheat, whole grain",low,51.0,40.2,83.41,39.40
+"Yeast, Baker's",high,680.0,,,999.99
+"Yeast, Brewer's",high,999.9,,,999.99
+"Yogurt, min. 3.5% fat content",low,8.1,,,27.70
