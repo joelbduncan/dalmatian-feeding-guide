@@ -5,17 +5,25 @@ $title = null; // home uses the bare site name
 $guides = ['three-rules', 'purine-guide', 'advanced-purine-guide', 'dry-food-guide', 'treats', 'water-and-urine'];
 $health = ['warning-signs', 'dna-testing'];
 ?>
-<section class="hero">
-  <div class="hero-media" aria-hidden="true">
-    <img src="/img/zeus-dalmatian-cover.jpg" alt="" width="2400" height="1067" fetchpriority="high">
-  </div>
-  <div class="container hero-content">
-    <p class="eyebrow"><?= e($meta['eyebrow'] ?? 'Welcome') ?></p>
-    <h1><?= e($meta['heading'] ?? $site['tagline']) ?></h1>
-    <p class="lead"><?= e($meta['lead'] ?? '') ?></p>
-    <div class="button-row">
-      <a class="button" href="/purine-guide">Check a food <?= icon('arrow') ?></a>
-      <a class="button button-ghost on-dark" href="#why">Why it matters</a>
+<?php
+// Coat-pattern banner: separate artwork for phones and for dark mode.
+// Versioned URLs (asset()) so browsers and Cloudflare pick up changes straight away.
+$pattern = sprintf(
+    "--pattern: url('%s'); --pattern-dark: url('%s'); --pattern-mobile: url('%s'); --pattern-mobile-dark: url('%s')",
+    asset('img/hero-pattern.svg'), asset('img/hero-pattern-dark.svg'),
+    asset('img/hero-pattern-mobile.svg'), asset('img/hero-pattern-mobile-dark.svg')
+);
+?>
+<section class="hero" style="<?= e($pattern) ?>">
+  <div class="container">
+    <div class="hero-card">
+      <p class="eyebrow"><?= e($meta['eyebrow'] ?? 'Welcome') ?></p>
+      <h1><?= e($meta['heading'] ?? $site['tagline']) ?></h1>
+      <p class="lead"><?= e($meta['lead'] ?? '') ?></p>
+      <div class="button-row">
+        <a class="button" href="/purine-guide">Check a food <?= icon('arrow') ?></a>
+        <a class="button button-ghost" href="#why">Why it matters</a>
+      </div>
     </div>
   </div>
 </section>
